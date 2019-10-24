@@ -32,6 +32,7 @@ _note: You can do it by yourself. For chane localisation just copy ru-RU.com_web
 ### Documentation 
 
 At now documentation in process... Current version of documentation you can find  here:
+
 https://github.com/alexeevdemyankov/wb3Joomla/tree/master/docs
 
 ### Demo
