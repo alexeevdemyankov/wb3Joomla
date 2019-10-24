@@ -22,3 +22,11 @@ This is universal administrator for Joomla 3.x.  It's can be used for administra
 
 System use external libs: Bootstrap 4, jQuery3 , Select2.
 
+### Localisation
+
+Current localisation is Russian(English will be adding later).
+
+_note: You can do it by yourself. For chane localisation just copy ru-RU.com_webbase3.ini  as en-GB.com_webbase3.ini in Joomla lanuage directory,and translate it! Now you have English interface. But, you had to translate texts in  the program. It was easy! Just edit needle fields.And all will be done! It's working for any language.
+
+
+
