@@ -40,6 +40,6 @@ https://github.com/alexeevdemyankov/wb3Joomla/tree/master/docs
 Demo system READ ONLY you can try on my server:
 login: Demo, password: Demo
 
-_note:***USE CHECKBOX BEFORE EDIT ROWS AND USE DOUBLE CLICK FOR EDIT FIELDS*** 
+IMPORTANT:***USE CHECKBOX BEFORE EDIT ROWS AND USE DOUBLE CLICK FOR EDIT FIELDS*** 
 
 http://wb3.ialexeev.cloud/
