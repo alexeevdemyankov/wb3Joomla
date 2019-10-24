@@ -1,2 +1,0 @@
-Add ckeditor in DataPlugin
-
