@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" client="site" method="upgrade">
+    <name>com_webbase3</name>
+    <creationDate>18/10/2019</creationDate>
+    <author>Ilya Alexeev-Demyankov</author>
+    <authorEmail>b333@bk.ru</authorEmail>
+    <copyright>Copyright (C) 2019 Open Source, Inc. All rights reserved.</copyright>
+    <version>3.0</version>
+    <files folder="site">
+	<folder>helpers</folder>
+	<folder>plugins</folder>
+	<folder>models</folder>
+	<folder>views</folder>
+        <filename>webbase3.php</filename>
+        <filename>controller.php</filename>
+    </files>
+    <languages folder="language">
+	<language tag="ru-RU">ru-RU/ru-RU.com_webbase3.ini</language>
+    </languages>
+
+    <install folder="admin">
+        <sql>
+            <file charset="utf8" driver="mysql">install.sql</file>
+        </sql>
+    </install>
+    <uninstall folder="admin">
+        <sql>
+            <file charset="utf8" driver="mysql">uninstall.sql</file>
+        </sql>
+    </uninstall>
+
+
+    <administration>
+	<menu link="index.php?option=com_webbase3">Webbase3</menu>	
+	<files folder="admin">
+          <filename>webbase3.php</filename>
+          <filename>install.sql</filename>
+          <filename>uninstall.sql</filename>
+	</files>
+    </administration>
+</extension>

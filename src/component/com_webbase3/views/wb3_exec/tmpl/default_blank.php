@@ -1,0 +1,1 @@
+<p class="alert alert-warning"><?php echo JText::_('COM_WEBBASE_NO_CHANGES'); ?></p>
