@@ -29,4 +29,14 @@ Current localisation is Russian(English will be adding later).
 _note: You can do it by yourself. For chane localisation just copy ru-RU.com_webbase3.ini  as en-GB.com_webbase3.ini in Joomla lanuage directory,and translate it! Now you have English interface. But, you had to translate texts in  the program. It was easy! Just edit needle fields.And all will be done! It's working for any language.
 
 
+### Documentation 
 
+At now documentation in process... Current version of documentation you can find  here:
+https://github.com/alexeevdemyankov/wb3Joomla/tree/master/docs
+
+### Demo
+
+Demo system READ ONLY you can try on my server:
+login: Demo, password: Demo
+
+http://wb3.ialexeev.cloud/
