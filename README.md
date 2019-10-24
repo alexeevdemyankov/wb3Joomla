@@ -29,6 +29,14 @@ Current localisation is Russian(English will be adding later).
 _note: You can do it by yourself. For chane localisation just copy ru-RU.com_webbase3.ini  as en-GB.com_webbase3.ini in Joomla lanuage directory,and translate it! Now you have English interface. But, you had to translate texts in  the program. It was easy! Just edit needle fields.And all will be done! It's working for any language.
 
 
+### Installation
+- You had to know, what your project database architecture!!!
+- Install Joomla 3
+- Install template and component.
+- Select webbase template as default.
+- Open index page and login as Joomla user.
+
+
 ### Documentation 
 
 At now documentation in process... Current version of documentation you can find  here:
