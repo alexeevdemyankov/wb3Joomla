@@ -8,6 +8,13 @@
 4. Select webbase template as default.
 5. Open index page and login as Joomla user.
 
+## Documentation
+
+All documentation contain:
+- User guide  https://github.com/alexeevdemyankov/wb3Joomla/tree/master/docs/user
+- Architect guide https://github.com/alexeevdemyankov/wb3Joomla/tree/master/docs/architect
+- Developer guide https://github.com/alexeevdemyankov/wb3Joomla/tree/master/docs/developer
+
 
 
 
