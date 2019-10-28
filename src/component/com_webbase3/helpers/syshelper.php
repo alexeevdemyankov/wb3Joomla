@@ -144,15 +144,16 @@ class SysHelper
         $groups = implode(',', JFactory::getUser()->groups);
         $query = "
           select 
-            wb3_r,
-            wb3_w,
-            wb3_x     
+            max(wb3_r) as wb3_r,
+            max(wb3_w) as wb3_w,
+            max(wb3_x) as wb3_x    
           from 
             wb3_scheme_rights       
           where                       
            wb3_group_id in ($groups) 
           AND
             wb3_scheme_id=$wb3_scheme
+          group by wb3_scheme_id
             ";
         return JFactory::getDbo()->setQuery($query)->loadAssoc();
     }
