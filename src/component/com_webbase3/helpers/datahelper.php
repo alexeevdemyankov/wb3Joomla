@@ -87,10 +87,12 @@ class DataHelper
         $selectLimit = ($sysVars['wb3_page'] > 0) ? ($sysVars['wb3_page'] * PageHelper::onPage()) . ', ' . PageHelper::onPage() : PageHelper::onPage();
         $schemeWhere = ($sysVars['wb3_key'] && $sysVars['wb3_val']) ? " AND `" . $keyField->wb3_table . "`.`" . $sysVars['wb3_key'] . "`='" . $sysVars['wb3_val'] . "'" : null;
         $schemeJoin = self::getJoinSlave($fields);
-        /*Get search*/
-        $wb3Search = SysHelper::getDefaults('wb3_search_' . $sysVars['wb3_scheme']);
+        /*Get search*/                
+        $searchId= 's' . $sysVars['wb3_scheme'].'k'.$sysVars['wb3_key'].'v'.$sysVars['wb3_val'];
+        $wb3Search = SysHelper::getDefaults('wb3_search_' .$searchId);
         $wb3Search = str_replace('*', '%', $wb3Search);
-        $wb3SearchField = SysHelper::getDefaults('wb3_search_field_' . $sysVars['wb3_scheme']);
+        $wb3SearchField = SysHelper::getDefaults('wb3_search_field_' .$searchId);
+                        
         if ($wb3Search && $wb3SearchField) {
             //joinFix
             $wb3Search = trim($wb3Search);
